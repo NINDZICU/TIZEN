@@ -1,0 +1,37 @@
+body {
+}
+
+.ui-listview li input[type="checkbox"], 
+.ui-listview li input[type="radio"]
+{
+   top: 0px;
+   margin-top: 19px;
+}
+.ui-listview li.li-has-checkbox label, 
+.ui-listview li.li-has-radio label
+{
+   display: block;
+}
+
+#question{
+	display:block;
+	margin-left:10px;
+}
+#my_timer{
+	margin-left:10px;
+}
+
+#pass{
+	margin-right:25px;
+	color:#ff0000;	
+}
+#img{
+	margin-right:10px;
+}
+#pass{
+	text-align:center;
+	margin:auto;
+}
+#btn_next_question{
+	margin-left:33%;
+}

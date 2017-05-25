@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>checkboxradio demo</title>
+    
+  	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  	<link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="./js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="./js/jquery.mobile-1.4.5.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</head>
+
+ <body> 
+ 
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <h1>Driver Exam</h1>
+        </div>
+            <p><span id="my_timer" style="color: #f00; font-size: 150%; font-weight: bold;">20:00</span></p>
+        
+        <label id="question"></label>
+        <br>
+        <div id="image-box"></div>
+        <div style="color=red" id="right-answer"></div>
+        <div  class="ui-content">
+            <form>
+                <fieldset data-role="controlgroup">
+                    <input type="radio" name="radio-choice" id="radio-choice-1" value="1" checked="checked">
+                    <label id="a1" for="radio-choice-1"></label>
+
+                    <input type="radio" name="radio-choice" id="radio-choice-2" value="2">
+                    <label id="a2" for="radio-choice-2"></label>
+
+                    <input type="radio" name="radio-choice" id="radio-choice-3" value="3">
+                    <label id="a3" for="radio-choice-3"></label>
+                  
+                  
+                </fieldset>
+            </form>
+        </div>
+        <div  data-role="footer" data-position="fixed">
+    <button id="btn_next_question">Next question</button> 
+    </div>
+    </div>
+    
+
+
+</body>
+
+</html>
